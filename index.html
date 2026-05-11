@@ -13,7 +13,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #0051ff 0%, #0f0053 100%);
       min-height: 100vh;
       padding: 20px;
     }
@@ -31,6 +31,13 @@
       color: #333;
       margin-bottom: 10px;
       text-align: center;
+    }
+    
+    .titulo {
+      text-align: center;
+      color: #000000;
+      font-size: 20px;
+      margin-bottom: 10px;
     }
 
     .version {
@@ -62,7 +69,7 @@
 
     input:focus, textarea:focus {
       outline: none;
-      border-color: #667eea;
+      border-color: #000e4d;
       box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     }
 
@@ -72,7 +79,7 @@
     }
 
     button {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #0051ff 0%, #0f0053 100%);
       color: white;
       padding: 12px 24px;
       border: none;
@@ -85,7 +92,7 @@
 
     button:hover {
       transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+      box-shadow: 0 5px 15px rgba(0, 25, 134, 0.4);
     }
 
     .btn-carregar {
@@ -162,6 +169,8 @@
 <body>
   <div class="container">
     <h1>📰 Agregador de Notícias</h1>
+    <p class="titulo"> Projeto integrado com Render e Vercel</p>
+    <p class="titulo"> 🧑🏻‍💻 Guilherme Laurindo - 4°DSM</p>
     <p class="version">v1.0.1 - CI/CD com Vercel + Render</p>
 
     <div id="mensagem"></div>
@@ -172,7 +181,7 @@
       </button>
     </div>
 
-    <div style="margin-bottom: 40px; padding: 20px; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+    <div style="margin-bottom: 40px; padding: 20px; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #031669;">
       <h3 style="margin-bottom: 15px;">➕ Adicionar Nova Notícia</h3>
       <div class="form-group">
         <label>Título</label>
